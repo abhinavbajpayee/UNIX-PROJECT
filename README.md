@@ -53,10 +53,6 @@
                    echo ""
                    echo "Now playing: $file 🎧"
                    echo "-----------------------------------------"
-                   for i in {1..5}; do
-                       echo -ne "Playing... [${i}/5] seconds\r"
-                       sleep 1
-                   done
                    echo ""
                    echo "Finished playing: $file ✅"
                else
@@ -78,15 +74,12 @@
 3. Make the Script Executable:  
    `chmod +x media_player.sh`  
 
-4. Create the Media Folder:  
-   `mkdir media`  
-
-5. Add Media Files (you can upload real `.mp3` or `.mp4` files, or create dummy ones):  
+4. Add Media Files (you can upload real `.mp3` or `.mp4` files, or create dummy ones):  
    ```bash
    cd media
    touch song1.mp3 song2.mp4 song3.mp3
    cd ..
    ```
 
-6. Run the Media Player Script:  
+5. Run the Media Player Script:  
    `./media_player.sh`
