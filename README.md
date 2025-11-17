@@ -1,7 +1,9 @@
 1. Make sure you are inside your Codio workspace.
-2. ![Uploading image.png…]()
+2. <img width="518" height="325" alt="image" src="https://github.com/user-attachments/assets/2f4280d1-6ec8-42dc-b556-b292c946cb7b" />
+3. ![Uploading image.png…]()
 
-3. Create the Script File using:  
+
+4. Create the Script File using:  
    `nano media_player.sh`  
 
    **Write the following code inside it:**  
@@ -73,15 +75,15 @@
    ```
    *(Press Ctrl + O → Enter to save, Ctrl + X to exit)*  
 
-4. Make the Script Executable:  
+5. Make the Script Executable:  
    `chmod +x media_player.sh`  
 
-5. Add Media Files (you can upload real `.mp3` or `.mp4` files, or create dummy ones):  
+6. Add Media Files (you can upload real `.mp3` or `.mp4` files, or create dummy ones):  
    ```bash
    cd media
    touch song1.mp3 song2.mp4 song3.mp3
    cd ..
    ```
 
-6. Run the Media Player Script:  
+7. Run the Media Player Script:  
    `./media_player.sh`
